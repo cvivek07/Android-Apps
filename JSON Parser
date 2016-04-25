@@ -1,18 +1,15 @@
-package com.hfad.esbroster;
 
-/**
- * Created by Vivek on 24-Jan-16.
- */
+
+// JSON PARSER CLASS TO REMOTELY CONNECT YOUR ANDROID APP WITH REMOTE DATABASE
+
 
 import android.util.Log;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
 import java.util.List;
-
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
@@ -36,7 +33,7 @@ public class JSONParser {
     }
 
 
-
+// Method to get the json objects from the url
     public JSONObject getJSONFromUrl(final String url) throws JSONException{
 
 
